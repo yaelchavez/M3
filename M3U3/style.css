@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #2b2b2b;
+}
+
+.ejercicio {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#resultadoPromedio {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#contador {
+    color: #666;
+    margin-top: 8px;
+}

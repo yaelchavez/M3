@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>M3U3 - JavaScript parte 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Actividad M3U3 - Funciones y DOM</h1>
+
+    <!-- EJERCICIO 1: Promedio de notas -->
+    <section class="ejercicio">
+        <h2>Ejercicio 1: Promedio de Historia</h2>
+        <label for="nota1">Nota Parcial 1:</label>
+        <input type="number" id="nota1" placeholder="Ej: 7">
+
+        <label for="nota2">Nota Parcial 2:</label>
+        <input type="number" id="nota2" placeholder="Ej: 9">
+
+        <button onclick="calcularPromedio()">Calcular promedio</button>
+
+        <p id="resultadoPromedio"></p>
+    </section>
+
+    <!-- EJERCICIO 2: Contador de caracteres -->
+    <section class="ejercicio">
+        <h2>Ejercicio 2: Contador de caracteres</h2>
+        <textarea id="textoUsuario" rows="4" placeholder="Escribí algo acá..."></textarea>
+        <p id="contador">Caracteres: 0</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
